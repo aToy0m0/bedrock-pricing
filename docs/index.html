@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bedrock 料金エクスプローラー</title>
+<style>
+  :root {
+    --bg: #F5F7F6;
+    --surface: #FFFFFF;
+    --ink: #16232C;
+    --ink-soft: #5A6B75;
+    --line: #DDE4E2;
+    --accent: #0B5B54;        /* 深い鉱床グリーン: Bedrock=岩盤 */
+    --accent-soft: #E2EEEC;
+    --bar-in: #0B5B54;
+    --bar-out: #B4540A;       /* 出力=高コスト側を暖色で対比 */
+    --warn-bg: #FBF3E4;
+    --warn-line: #E4CFA3;
+    --mono: "SF Mono", "Cascadia Code", Consolas, "BIZ UDGothic", monospace;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Hiragino Sans", "Yu Gothic UI", "Noto Sans JP", sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 24px clamp(12px, 4vw, 48px) 64px;
+  }
+  header { max-width: 1200px; margin: 0 auto 20px; }
+  h1 {
+    font-size: clamp(20px, 3vw, 28px);
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+  h1 .unit {
+    font-family: var(--mono);
+    font-size: 0.55em;
+    font-weight: 400;
+    color: var(--ink-soft);
+    margin-left: 10px;
+    vertical-align: 2px;
+  }
+  .meta {
+    color: var(--ink-soft);
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  .meta a { color: var(--accent); }
+
+  .notice {
+    max-width: 1200px;
+    margin: 0 auto 16px;
+    background: var(--warn-bg);
+    border: 1px solid var(--warn-line);
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 12.5px;
+  }
+  .notice strong { color: #8A5A00; }
+
+  .panel {
+    max-width: 1200px;
+    margin: 0 auto 14px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 14px 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 22px;
+    align-items: flex-end;
+  }
+  .field { display: flex; flex-direction: column; gap: 5px; }
+  .field > label {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: var(--ink-soft);
+  }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; max-width: 620px; }
+  .chip {
+    font-size: 12.5px;
+    padding: 4px 11px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--surface);
+    color: var(--ink-soft);
+    cursor: pointer;
+    transition: background .12s, color .12s, border-color .12s;
+  }
+  .chip[aria-pressed="true"] {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+  }
+  .chip:focus-visible, select:focus-visible, input:focus-visible, th button:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+  select, input[type="search"], input[type="number"] {
+    font: inherit;
+    padding: 6px 10px;
+    border: 1px solid var(--line);
+    border-radius: 7px;
+    background: var(--surface);
+    color: var(--ink);
+  }
+  input[type="number"] { width: 96px; font-family: var(--mono); }
+  input[type="search"] { width: 200px; }
+
+  .tablewrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow-x: auto;
+  }
+  table { border-collapse: collapse; width: 100%; min-width: 860px; }
+  thead th {
+    position: sticky; top: 0;
+    background: var(--surface);
+    border-bottom: 2px solid var(--ink);
+    font-size: 11.5px;
+    letter-spacing: 0.05em;
+    color: var(--ink-soft);
+    text-align: left;
+    padding: 10px 12px 8px;
+    white-space: nowrap;
+  }
+  thead th.num { text-align: right; }
+  th button {
+    all: unset;
+    cursor: pointer;
+    font: inherit;
+    color: inherit;
+  }
+  th button::after { content: " ↕"; opacity: .35; }
+  th button[data-dir="asc"]::after { content: " ↑"; opacity: 1; color: var(--accent); }
+  th button[data-dir="desc"]::after { content: " ↓"; opacity: 1; color: var(--accent); }
+  tbody td {
+    border-bottom: 1px solid var(--line);
+    padding: 8px 12px;
+    vertical-align: top;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: #FAFCFB; }
+  td.provider { font-weight: 600; white-space: nowrap; }
+  td.model { min-width: 190px; }
+  td.model .note {
+    display: inline-block;
+    font-size: 10.5px;
+    color: #8A5A00;
+    background: var(--warn-bg);
+    border-radius: 4px;
+    padding: 0 6px;
+    margin-left: 6px;
+  }
+  td.regions { max-width: 260px; }
+  .rtag {
+    display: inline-block;
+    font-size: 11px;
+    color: var(--ink-soft);
+    background: var(--accent-soft);
+    border-radius: 4px;
+    padding: 0 6px;
+    margin: 1px 3px 1px 0;
+    white-space: nowrap;
+  }
+  td.num { text-align: right; white-space: nowrap; }
+  .usd { font-family: var(--mono); font-size: 13.5px; font-variant-numeric: tabular-nums; }
+  .jpy {
+    display: block;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--ink-soft);
+    font-variant-numeric: tabular-nums;
+  }
+  /* シグネチャ: 対数スケールの単価バー。桁の違いを一目で */
+  .bar {
+    display: block;
+    height: 3px;
+    border-radius: 2px;
+    margin-top: 4px;
+    margin-left: auto;
+  }
+  .bar.in  { background: var(--bar-in); }
+  .bar.out { background: var(--bar-out); }
+
+  .count {
+    max-width: 1200px;
+    margin: 8px auto 0;
+    font-size: 12px;
+    color: var(--ink-soft);
+    font-family: var(--mono);
+  }
+  footer {
+    max-width: 1200px;
+    margin: 28px auto 0;
+    font-size: 12px;
+    color: var(--ink-soft);
+    border-top: 1px solid var(--line);
+    padding-top: 14px;
+  }
+  footer h2 { font-size: 13px; margin-bottom: 6px; color: var(--ink); }
+  footer code {
+    font-family: var(--mono);
+    font-size: 11px;
+    background: var(--accent-soft);
+    padding: 1px 5px;
+    border-radius: 4px;
+    word-break: break-all;
+  }
+  #importStatus { margin-top: 6px; font-family: var(--mono); font-size: 11.5px; }
+  #importStatus.error { color: #A83A00; }
+  details { margin-top: 6px; }
+  @media (prefers-reduced-motion: reduce) { .chip { transition: none; } }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Bedrock 料金エクスプローラー<span class="unit">USD / 1M tokens・オンデマンド Standard</span></h1>
+  <p class="meta">
+    出典: <a href="https://aws.amazon.com/jp/bedrock/pricing/" target="_blank" rel="noopener">Amazon Bedrock の料金（AWS公式）</a>
+    / AWS Price List Bulk API ・ <span id="dataMeta">読み込み中…</span>
+  </p>
+</header>
+
+<div class="notice" id="loadError" hidden></div>
+
+<div class="panel">
+  <div class="field">
+    <label>プロバイダー</label>
+    <div class="chips" id="providerChips"></div>
+  </div>
+  <div class="field">
+    <label for="regionSel">リージョン</label>
+    <select id="regionSel"><option value="">すべて</option></select>
+  </div>
+  <div class="field">
+    <label for="q">モデル名検索</label>
+    <input type="search" id="q" placeholder="例: Gemma, GLM">
+  </div>
+  <div class="field">
+    <label for="rate">ドル円レート（円換算表示）</label>
+    <input type="number" id="rate" value="150" min="1" step="0.5">
+  </div>
+</div>
+
+<div class="tablewrap">
+  <table>
+    <thead>
+      <tr>
+        <th><button data-key="p">プロバイダー</button></th>
+        <th><button data-key="m">モデル</button></th>
+        <th>リージョン</th>
+        <th class="num"><button data-key="i">入力 / 1M</button></th>
+        <th class="num"><button data-key="o">出力 / 1M</button></th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+<p class="count" id="count"></p>
+
+<footer>
+  <h2>このページについて</h2>
+  <p>
+    本ページは非公式の参考情報です。データは <code>AWS Price List Bulk API (AmazonBedrock)</code> から GitHub Actions で毎日自動取得しています。
+    料金は予告なく変更されます。実際の請求は AWS 公式の料金ページおよび請求情報が優先されます。
+  </p>
+  <p style="margin-top:8px">
+    円換算はページ内で指定したレートによる目安であり、請求は USD 建てです。
+    Priority 階層は Standard +75%、Flex/バッチは Standard −50% が目安（プロバイダーごとの注記に従う）。
+  </p>
+  <p style="margin-top:8px">
+    Amazon Bedrock および AWS は Amazon.com, Inc. またはその関連会社の商標です。本ページは AWS による公認・提携ではありません。
+  </p>
+</footer>
+
+<script>
+"use strict";
+
+// ---- リージョン定義 ----
+const REGIONS = {
+  use1: "バージニア北部", use2: "オハイオ", usw2: "オレゴン",
+  apne1: "東京", apse2: "シドニー", apse3: "ジャカルタ", aps1: "ムンバイ",
+  euw1: "アイルランド", euw2: "ロンドン", euc1: "フランクフルト",
+  eun1: "ストックホルム", eus1: "ミラノ", euz1: "チューリッヒ", euw3: "パリ",
+  sae1: "サンパウロ", na: "リージョン記載なし",
+  // Price List (regionCode) 由来
+  "us-east-1": "バージニア北部", "us-east-2": "オハイオ", "us-west-2": "オレゴン",
+  "ap-northeast-1": "東京", "ap-southeast-2": "シドニー", "ap-southeast-3": "ジャカルタ",
+  "ap-south-1": "ムンバイ", "eu-west-1": "アイルランド", "eu-west-2": "ロンドン",
+  "eu-west-3": "パリ", "eu-central-1": "フランクフルト", "eu-central-2": "チューリッヒ",
+  "eu-north-1": "ストックホルム", "eu-south-1": "ミラノ", "sa-east-1": "サンパウロ",
+};
+const US3 = ["use1", "use2", "usw2"];
+
+// ---- 状態 ----
+let rows = [];
+const state = {
+  providers: new Set(),   // 空 = すべて
+  region: "",
+  query: "",
+  rate: 150,
+  sortKey: null,
+  sortDir: 1,
+};
+
+// ---- 描画 ----
+const $ = (id) => document.getElementById(id);
+const fmtUSD = (v) => v === null ? "—" : "$" + v.toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 4 });
+const fmtJPY = (v, rate) => v === null ? "" : "¥" + (v * rate).toLocaleString("ja-JP", { maximumFractionDigits: 1 });
+// 対数バー: $0.01〜$50/1M を 4〜120px にマップ
+const barWidth = (v) => {
+  if (v === null || v <= 0) return 0;
+  const t = (Math.log10(v) - Math.log10(0.01)) / (Math.log10(50) - Math.log10(0.01));
+  return Math.max(4, Math.min(120, 4 + t * 116));
+};
+const regionLabel = (r) => REGIONS[r] || r;
+
+function currentRows() {
+  let out = rows.filter((row) =>
+    (state.providers.size === 0 || state.providers.has(row.p)) &&
+    (state.region === "" || row.r.includes(state.region)) &&
+    (state.query === "" || row.m.toLowerCase().includes(state.query))
+  );
+  if (state.sortKey) {
+    const k = state.sortKey, d = state.sortDir;
+    out = [...out].sort((a, b) => {
+      const av = a[k], bv = b[k];
+      if (av === null) return 1;
+      if (bv === null) return -1;
+      return (typeof av === "number" ? av - bv : String(av).localeCompare(String(bv), "ja")) * d;
+    });
+  }
+  return out;
+}
+
+function render() {
+  const data = currentRows();
+  const tbody = $("tbody");
+  tbody.replaceChildren();
+  const frag = document.createDocumentFragment();
+  for (const row of data) {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td class="provider">${row.p}</td>
+      <td class="model">${row.m}${row.note ? `<span class="note">${row.note}</span>` : ""}</td>
+      <td class="regions">${row.r.map((r) => `<span class="rtag">${regionLabel(r)}</span>`).join("")}</td>
+      <td class="num">
+        <span class="usd">${fmtUSD(row.i)}</span>
+        <span class="jpy">${fmtJPY(row.i, state.rate)}</span>
+        <span class="bar in" style="width:${barWidth(row.i)}px"></span>
+      </td>
+      <td class="num">
+        <span class="usd">${fmtUSD(row.o)}</span>
+        <span class="jpy">${fmtJPY(row.o, state.rate)}</span>
+        <span class="bar out" style="width:${barWidth(row.o)}px"></span>
+      </td>`;
+    frag.appendChild(tr);
+  }
+  tbody.appendChild(frag);
+  $("count").textContent = `${data.length} / ${rows.length} 行`;
+}
+
+function buildControls() {
+  // プロバイダーチップ
+  const providers = [...new Set(rows.map((r) => r.p))];
+  const chips = $("providerChips");
+  chips.replaceChildren();
+  for (const p of providers) {
+    const b = document.createElement("button");
+    b.className = "chip";
+    b.textContent = p;
+    b.setAttribute("aria-pressed", state.providers.has(p));
+    b.addEventListener("click", () => {
+      state.providers.has(p) ? state.providers.delete(p) : state.providers.add(p);
+      b.setAttribute("aria-pressed", state.providers.has(p));
+      render();
+    });
+    chips.appendChild(b);
+  }
+  // リージョン選択肢
+  const regions = [...new Set(rows.flatMap((r) => r.r))];
+  regions.sort((a, b) => regionLabel(a).localeCompare(regionLabel(b), "ja"));
+  const sel = $("regionSel");
+  const kept = sel.value;
+  sel.replaceChildren(new Option("すべて", ""));
+  for (const r of regions) sel.appendChild(new Option(regionLabel(r), r));
+  if (regions.includes(kept)) sel.value = kept;
+  state.region = sel.value;
+}
+
+// ---- イベント ----
+$("regionSel").addEventListener("change", (e) => { state.region = e.target.value; render(); });
+$("q").addEventListener("input", (e) => { state.query = e.target.value.trim().toLowerCase(); render(); });
+$("rate").addEventListener("input", (e) => {
+  const v = parseFloat(e.target.value);
+  if (!Number.isFinite(v) || v <= 0) return;
+  state.rate = v;
+  render();
+});
+document.querySelectorAll("th button[data-key]").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const key = btn.dataset.key;
+    if (state.sortKey === key) state.sortDir *= -1; else { state.sortKey = key; state.sortDir = 1; }
+    document.querySelectorAll("th button[data-key]").forEach((b) => b.removeAttribute("data-dir"));
+    btn.dataset.dir = state.sortDir === 1 ? "asc" : "desc";
+    render();
+  });
+});
+
+// ---- 初期化: data.json を読み込む ----
+async function loadData() {
+  try {
+    const res = await fetch("./data.json", { cache: "no-cache" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    if (!Array.isArray(data.rows) || data.rows.length === 0) {
+      throw new Error("rows が空、またはデータ形式が不正");
+    }
+    rows = data.rows;
+    const meta = [
+      `データ生成: ${data.generatedAt ? new Date(data.generatedAt).toLocaleString("ja-JP") : "不明"}`,
+      data.publicationDate ? `Price List 公開: ${new Date(data.publicationDate).toLocaleString("ja-JP")}` : null,
+      data.source,
+    ].filter(Boolean).join(" ・ ");
+    $("dataMeta").textContent = meta;
+    buildControls();
+    render();
+  } catch (err) {
+    const box = $("loadError");
+    box.hidden = false;
+    box.textContent = `data.json の読み込みに失敗しました: ${err.message}。更新ワークフロー (Actions) の実行結果を確認してください。`;
+    $("dataMeta").textContent = "データ未読込";
+  }
+}
+loadData();
+</script>
+</body>
+</html>

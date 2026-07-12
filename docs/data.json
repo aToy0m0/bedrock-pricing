@@ -1,0 +1,1606 @@
+{
+ "generatedAt": "2026-07-12T00:00:00Z",
+ "source": "https://aws.amazon.com/jp/bedrock/pricing/ 静的HTML (初期スナップショット)",
+ "publicationDate": null,
+ "rows": [
+  {
+   "p": "Anthropic",
+   "m": "Claude 3.5 Sonnet",
+   "r": [
+    "use1",
+    "use2",
+    "usw2",
+    "euc1",
+    "euw1",
+    "euz1",
+    "euw3"
+   ],
+   "i": 6,
+   "o": 30,
+   "note": "拡張アクセス"
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude 3.5 Sonnet v2",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 6,
+   "o": 30,
+   "note": "拡張アクセス"
+  },
+  {
+   "p": "DeepSeek",
+   "m": "DeepSeek v3.2",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.62,
+   "o": 1.85
+  },
+  {
+   "p": "DeepSeek",
+   "m": "DeepSeek v3.2",
+   "r": [
+    "aps1",
+    "sae1",
+    "apse3",
+    "apne1",
+    "eun1"
+   ],
+   "i": 0.74,
+   "o": 2.22
+  },
+  {
+   "p": "DeepSeek",
+   "m": "DeepSeek v3.2",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.6386,
+   "o": 1.9055
+  },
+  {
+   "p": "DeepSeek",
+   "m": "DeepSeek v3.1",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.5974,
+   "o": 1.7304
+  },
+  {
+   "p": "Google",
+   "m": "Gemma 3 4B",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.04,
+   "o": 0.08
+  },
+  {
+   "p": "Google",
+   "m": "Gemma 3 12B",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.09,
+   "o": 0.29
+  },
+  {
+   "p": "Google",
+   "m": "Gemma 3 27B",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.23,
+   "o": 0.38
+  },
+  {
+   "p": "Google",
+   "m": "Gemma 3 4B",
+   "r": [
+    "aps1",
+    "euw1",
+    "eus1"
+   ],
+   "i": 0.05,
+   "o": 0.09
+  },
+  {
+   "p": "Google",
+   "m": "Gemma 3 12B",
+   "r": [
+    "aps1",
+    "euw1",
+    "eus1"
+   ],
+   "i": 0.11,
+   "o": 0.34
+  },
+  {
+   "p": "Google",
+   "m": "Gemma 3 27B",
+   "r": [
+    "aps1",
+    "euw1",
+    "eus1"
+   ],
+   "i": 0.27,
+   "o": 0.45
+  },
+  {
+   "p": "Google",
+   "m": "Gemma 3 4B",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.05,
+   "o": 0.1
+  },
+  {
+   "p": "Google",
+   "m": "Gemma 3 12B",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.11,
+   "o": 0.35
+  },
+  {
+   "p": "Google",
+   "m": "Gemma 3 27B",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.28,
+   "o": 0.46
+  },
+  {
+   "p": "Google",
+   "m": "Gemma 3 4B",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.06,
+   "o": 0.12
+  },
+  {
+   "p": "Google",
+   "m": "Gemma 3 12B",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.14,
+   "o": 0.45
+  },
+  {
+   "p": "Google",
+   "m": "Gemma 3 27B",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.36,
+   "o": 0.59
+  },
+  {
+   "p": "Google",
+   "m": "Gemma 3 4B",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.0412,
+   "o": 0.0824
+  },
+  {
+   "p": "Google",
+   "m": "Gemma 3 12B",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.0927,
+   "o": 0.2987
+  },
+  {
+   "p": "Google",
+   "m": "Gemma 3 27B",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.2369,
+   "o": 0.3914
+  },
+  {
+   "p": "MiniMax AI",
+   "m": "MiniMax M2",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.3,
+   "o": 1.2
+  },
+  {
+   "p": "MiniMax AI",
+   "m": "MiniMax M2.1",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.3,
+   "o": 1.2
+  },
+  {
+   "p": "MiniMax AI",
+   "m": "MiniMax M2.5",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.3,
+   "o": 1.2
+  },
+  {
+   "p": "MiniMax AI",
+   "m": "MiniMax M2",
+   "r": [
+    "aps1",
+    "euw1",
+    "eus1"
+   ],
+   "i": 0.35,
+   "o": 1.41
+  },
+  {
+   "p": "MiniMax AI",
+   "m": "MiniMax M2.1",
+   "r": [
+    "aps1",
+    "euw1",
+    "eus1"
+   ],
+   "i": 0.36,
+   "o": 1.44
+  },
+  {
+   "p": "MiniMax AI",
+   "m": "MiniMax M2.5",
+   "r": [
+    "aps1",
+    "euw1",
+    "eus1"
+   ],
+   "i": 0.36,
+   "o": 1.44
+  },
+  {
+   "p": "MiniMax AI",
+   "m": "MiniMax M2",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.36,
+   "o": 1.45
+  },
+  {
+   "p": "MiniMax AI",
+   "m": "MiniMax M2.1",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.36,
+   "o": 1.44
+  },
+  {
+   "p": "MiniMax AI",
+   "m": "MiniMax M2.5",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.36,
+   "o": 1.44
+  },
+  {
+   "p": "MiniMax AI",
+   "m": "MiniMax M2",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.47,
+   "o": 1.86
+  },
+  {
+   "p": "MiniMax AI",
+   "m": "MiniMax M2.1",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.47,
+   "o": 1.86
+  },
+  {
+   "p": "MiniMax AI",
+   "m": "MiniMax M2.5",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.47,
+   "o": 1.86
+  },
+  {
+   "p": "MiniMax AI",
+   "m": "MiniMax M2.1",
+   "r": [
+    "euc1",
+    "eun1",
+    "apse3"
+   ],
+   "i": 0.36,
+   "o": 1.44
+  },
+  {
+   "p": "MiniMax AI",
+   "m": "MiniMax M2.5",
+   "r": [
+    "euc1",
+    "eun1",
+    "apse3"
+   ],
+   "i": 0.36,
+   "o": 1.44
+  },
+  {
+   "p": "MiniMax AI",
+   "m": "MiniMax M2",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.309,
+   "o": 1.236
+  },
+  {
+   "p": "MiniMax AI",
+   "m": "MiniMax M2.1",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.309,
+   "o": 1.236
+  },
+  {
+   "p": "MiniMax AI",
+   "m": "MiniMax M2.5",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.31,
+   "o": 1.24
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Devstral 2 123B",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.4,
+   "o": 2
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Magistral Small 1.2",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.5,
+   "o": 1.5
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Voxtral Mini 1.0",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.04,
+   "o": 0.04
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Voxtral Small 1.0",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.1,
+   "o": 0.3
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Ministral 3B 3.0",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.1,
+   "o": 0.1
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Ministral 8B 3.0",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.15,
+   "o": 0.15
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Ministral 14B 3.0",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.2,
+   "o": 0.2
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Mistral Large 3",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.5,
+   "o": 1.5
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Devstral 2 123B",
+   "r": [
+    "aps1"
+   ],
+   "i": 0.48,
+   "o": 2.4
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Magistral Small 1.2",
+   "r": [
+    "aps1"
+   ],
+   "i": 0.59,
+   "o": 1.76
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Voxtral Mini 1.0",
+   "r": [
+    "aps1"
+   ],
+   "i": 0.05,
+   "o": 0.05
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Voxtral Small 1.0",
+   "r": [
+    "aps1"
+   ],
+   "i": 0.12,
+   "o": 0.35
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Ministral 3B 3.0",
+   "r": [
+    "aps1"
+   ],
+   "i": 0.12,
+   "o": 0.12
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Ministral 8B 3.0",
+   "r": [
+    "aps1"
+   ],
+   "i": 0.18,
+   "o": 0.18
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Ministral 14B 3.0",
+   "r": [
+    "aps1"
+   ],
+   "i": 0.24,
+   "o": 0.24
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Mistral Large 3",
+   "r": [
+    "aps1"
+   ],
+   "i": 0.59,
+   "o": 1.76
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Devstral 2 123B",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.48,
+   "o": 2.4
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Magistral Small 1.2",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.61,
+   "o": 1.82
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Voxtral Mini 1.0",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.05,
+   "o": 0.05
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Voxtral Small 1.0",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.12,
+   "o": 0.36
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Ministral 3B 3.0",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.12,
+   "o": 0.12
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Ministral 8B 3.0",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.18,
+   "o": 0.18
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Ministral 14B 3.0",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.24,
+   "o": 0.24
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Mistral Large 3",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.61,
+   "o": 1.82
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Devstral 2 123B",
+   "r": [
+    "euw1",
+    "eus1"
+   ],
+   "i": 0.48,
+   "o": 2.4
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Magistral Small 1.2",
+   "r": [
+    "euw1",
+    "eus1"
+   ],
+   "i": 0.59,
+   "o": 1.76
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Voxtral Mini 1.0",
+   "r": [
+    "euw1",
+    "eus1"
+   ],
+   "i": 0.05,
+   "o": 0.05
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Voxtral Small 1.0",
+   "r": [
+    "euw1",
+    "eus1"
+   ],
+   "i": 0.12,
+   "o": 0.35
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Ministral 3B 3.0",
+   "r": [
+    "euw1",
+    "eus1"
+   ],
+   "i": 0.12,
+   "o": 0.12
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Ministral 8B 3.0",
+   "r": [
+    "euw1",
+    "eus1"
+   ],
+   "i": 0.18,
+   "o": 0.18
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Ministral 14B 3.0",
+   "r": [
+    "euw1",
+    "eus1"
+   ],
+   "i": 0.24,
+   "o": 0.24
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Devstral 2 123B",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.62,
+   "o": 3.1
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Magistral Small 1.2",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.78,
+   "o": 2.33
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Voxtral Mini 1.0",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.06,
+   "o": 0.06
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Voxtral Small 1.0",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.16,
+   "o": 0.47
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Ministral 3B 3.0",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.16,
+   "o": 0.16
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Ministral 8B 3.0",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.23,
+   "o": 0.23
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Ministral 14B 3.0",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.31,
+   "o": 0.31
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Devstral 2 123B",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.41,
+   "o": 2.06
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Magistral Small 1.2",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.515,
+   "o": 1.545
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Voxtral Mini 1.0",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.0412,
+   "o": 0.0412
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Voxtral Small 1.0",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.103,
+   "o": 0.309
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Ministral 3B 3.0",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.103,
+   "o": 0.103
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Ministral 8B 3.0",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.1545,
+   "o": 0.1545
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Ministral 14B 3.0",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.206,
+   "o": 0.206
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Mistral Large 3",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.515,
+   "o": 1.545
+  },
+  {
+   "p": "Mistral AI",
+   "m": "Devstral 2 123B",
+   "r": [
+    "apse3",
+    "euc1",
+    "eun1"
+   ],
+   "i": 0.48,
+   "o": 2.4
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K2 Thinking",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.6,
+   "o": 2.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K2.5",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.6,
+   "o": 3
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K2 Thinking",
+   "r": [
+    "aps1"
+   ],
+   "i": 0.71,
+   "o": 2.94
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K2.5",
+   "r": [
+    "aps1"
+   ],
+   "i": 0.72,
+   "o": 3.6
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K2 Thinking",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.73,
+   "o": 3.03
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K2.5",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.72,
+   "o": 3.6
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K2.5",
+   "r": [
+    "eun1",
+    "apse3"
+   ],
+   "i": 0.72,
+   "o": 3.6
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K2 Thinking",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.618,
+   "o": 2.575
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K2.5",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.618,
+   "o": 3.09
+  },
+  {
+   "p": "NVIDIA",
+   "m": "Nemotron Nano 2",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.06,
+   "o": 0.23
+  },
+  {
+   "p": "NVIDIA",
+   "m": "Nemotron Nano 2 VL",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.2,
+   "o": 0.6
+  },
+  {
+   "p": "NVIDIA",
+   "m": "Nemotron 3 Nano 30B A3B",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.06,
+   "o": 0.24
+  },
+  {
+   "p": "NVIDIA",
+   "m": "Nemotron 3 Super 120B A12B",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.15,
+   "o": 0.65
+  },
+  {
+   "p": "NVIDIA",
+   "m": "Nemotron Nano 2",
+   "r": [
+    "aps1",
+    "euw1",
+    "eus1"
+   ],
+   "i": 0.07,
+   "o": 0.27
+  },
+  {
+   "p": "NVIDIA",
+   "m": "Nemotron Nano 2 VL",
+   "r": [
+    "aps1",
+    "euw1",
+    "eus1"
+   ],
+   "i": 0.24,
+   "o": 0.71
+  },
+  {
+   "p": "NVIDIA",
+   "m": "Nemotron 3 Nano 30B A3B",
+   "r": [
+    "aps1",
+    "euw1",
+    "eus1"
+   ],
+   "i": 0.07,
+   "o": 0.28
+  },
+  {
+   "p": "NVIDIA",
+   "m": "Nemotron 3 Super 120B A12B",
+   "r": [
+    "aps1",
+    "euw1",
+    "eus1"
+   ],
+   "i": 0.18,
+   "o": 0.78
+  },
+  {
+   "p": "NVIDIA",
+   "m": "Nemotron Nano 2",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.07,
+   "o": 0.28
+  },
+  {
+   "p": "NVIDIA",
+   "m": "Nemotron Nano 2 VL",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.24,
+   "o": 0.73
+  },
+  {
+   "p": "NVIDIA",
+   "m": "Nemotron 3 Nano 30B A3B",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.07,
+   "o": 0.29
+  },
+  {
+   "p": "NVIDIA",
+   "m": "Nemotron 3 Super 120B A12B",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.18,
+   "o": 0.78
+  },
+  {
+   "p": "NVIDIA",
+   "m": "Nemotron Nano 2",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.09,
+   "o": 0.36
+  },
+  {
+   "p": "NVIDIA",
+   "m": "Nemotron Nano 2 VL",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.31,
+   "o": 0.93
+  },
+  {
+   "p": "NVIDIA",
+   "m": "Nemotron 3 Nano 30B A3B",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.09,
+   "o": 0.37
+  },
+  {
+   "p": "NVIDIA",
+   "m": "Nemotron 3 Super 120B A12B",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.23,
+   "o": 1.01
+  },
+  {
+   "p": "NVIDIA",
+   "m": "Nemotron Nano 2",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.0618,
+   "o": 0.2369
+  },
+  {
+   "p": "NVIDIA",
+   "m": "Nemotron Nano 2 VL",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.206,
+   "o": 0.618
+  },
+  {
+   "p": "NVIDIA",
+   "m": "Nemotron 3 Nano 30B A3B",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.0618,
+   "o": 0.2472
+  },
+  {
+   "p": "NVIDIA",
+   "m": "Nemotron 3 Super 120B A12B",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.15,
+   "o": 0.67
+  },
+  {
+   "p": "NVIDIA",
+   "m": "Nemotron 3 Super 120B A12B",
+   "r": [
+    "apse3",
+    "euc1",
+    "eun1"
+   ],
+   "i": 0.18,
+   "o": 0.78
+  },
+  {
+   "p": "OpenAI OSS",
+   "m": "gpt-oss-20b",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.0721,
+   "o": 0.309
+  },
+  {
+   "p": "OpenAI OSS",
+   "m": "gpt-oss-120b",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.1545,
+   "o": 0.618
+  },
+  {
+   "p": "OpenAI OSS",
+   "m": "GPT OSS Safeguard 20B",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.07,
+   "o": 0.2
+  },
+  {
+   "p": "OpenAI OSS",
+   "m": "GPT OSS Safeguard 120B",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.15,
+   "o": 0.6
+  },
+  {
+   "p": "OpenAI OSS",
+   "m": "GPT OSS Safeguard 20B",
+   "r": [
+    "aps1",
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.08,
+   "o": 0.24
+  },
+  {
+   "p": "OpenAI OSS",
+   "m": "GPT OSS Safeguard 120B",
+   "r": [
+    "aps1",
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.18,
+   "o": 0.71
+  },
+  {
+   "p": "OpenAI OSS",
+   "m": "GPT OSS Safeguard 20B",
+   "r": [
+    "euw1",
+    "eus1"
+   ],
+   "i": 0.08,
+   "o": 0.23
+  },
+  {
+   "p": "OpenAI OSS",
+   "m": "GPT OSS Safeguard 120B",
+   "r": [
+    "euw1",
+    "eus1"
+   ],
+   "i": 0.18,
+   "o": 0.7
+  },
+  {
+   "p": "OpenAI OSS",
+   "m": "GPT OSS Safeguard 20B",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.11,
+   "o": 0.31
+  },
+  {
+   "p": "OpenAI OSS",
+   "m": "GPT OSS Safeguard 120B",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.23,
+   "o": 0.93
+  },
+  {
+   "p": "OpenAI OSS",
+   "m": "GPT OSS Safeguard 20B",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.0721,
+   "o": 0.206
+  },
+  {
+   "p": "OpenAI OSS",
+   "m": "GPT OSS Safeguard 120B",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.1545,
+   "o": 0.618
+  },
+  {
+   "p": "Qwen",
+   "m": "Qwen3 Coder 30B A3B",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.1545,
+   "o": 0.618
+  },
+  {
+   "p": "Qwen",
+   "m": "Qwen3 32B",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.1545,
+   "o": 0.618
+  },
+  {
+   "p": "Qwen",
+   "m": "Qwen3 235B A22B 2507",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.2266,
+   "o": 0.9064
+  },
+  {
+   "p": "Qwen",
+   "m": "Qwen3 Next 80B A3B",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.15,
+   "o": 1.2
+  },
+  {
+   "p": "Qwen",
+   "m": "Qwen3 VL 235B A22B",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.53,
+   "o": 2.66
+  },
+  {
+   "p": "Qwen",
+   "m": "Qwen3 Coder Next",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.5,
+   "o": 1.2
+  },
+  {
+   "p": "Qwen",
+   "m": "Qwen3 Next 80B A3B",
+   "r": [
+    "aps1",
+    "euw1",
+    "eus1"
+   ],
+   "i": 0.18,
+   "o": 1.41
+  },
+  {
+   "p": "Qwen",
+   "m": "Qwen3 VL 235B A22B",
+   "r": [
+    "aps1",
+    "euw1",
+    "eus1"
+   ],
+   "i": 0.62,
+   "o": 3.13
+  },
+  {
+   "p": "Qwen",
+   "m": "Qwen3 Coder Next",
+   "r": [
+    "aps1",
+    "euw1",
+    "eus1"
+   ],
+   "i": 0.6,
+   "o": 1.44
+  },
+  {
+   "p": "Qwen",
+   "m": "Qwen3 Next 80B A3B",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.18,
+   "o": 1.45
+  },
+  {
+   "p": "Qwen",
+   "m": "Qwen3 VL 235B A22B",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.64,
+   "o": 3.22
+  },
+  {
+   "p": "Qwen",
+   "m": "Qwen3 Coder Next",
+   "r": [
+    "sae1",
+    "apne1"
+   ],
+   "i": 0.6,
+   "o": 1.44
+  },
+  {
+   "p": "Qwen",
+   "m": "Qwen3 Next 80B A3B",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.23,
+   "o": 1.86
+  },
+  {
+   "p": "Qwen",
+   "m": "Qwen3 VL 235B A22B",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.82,
+   "o": 4.12
+  },
+  {
+   "p": "Qwen",
+   "m": "Qwen3 Coder Next",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.78,
+   "o": 1.86
+  },
+  {
+   "p": "Qwen",
+   "m": "Qwen3 Coder Next",
+   "r": [
+    "euc1",
+    "apse3"
+   ],
+   "i": 0.6,
+   "o": 1.44
+  },
+  {
+   "p": "Qwen",
+   "m": "Qwen3 Next 80B A3B",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.1545,
+   "o": 1.236
+  },
+  {
+   "p": "Qwen",
+   "m": "Qwen3 VL 235B A22B",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.5459,
+   "o": 2.7398
+  },
+  {
+   "p": "Qwen",
+   "m": "Qwen3 Coder Next",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.515,
+   "o": 1.236
+  },
+  {
+   "p": "Writer",
+   "m": "Palmyra X4",
+   "r": [
+    "na"
+   ],
+   "i": 2.5,
+   "o": 10
+  },
+  {
+   "p": "Writer",
+   "m": "Palmyra X5",
+   "r": [
+    "na"
+   ],
+   "i": 0.6,
+   "o": 6
+  },
+  {
+   "p": "Writer",
+   "m": "Palmyra Vision 7B",
+   "r": [
+    "na"
+   ],
+   "i": 0.15,
+   "o": 0.6
+  },
+  {
+   "p": "Z AI",
+   "m": "GLM 5",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 1,
+   "o": 3.2
+  },
+  {
+   "p": "Z AI",
+   "m": "GLM 5",
+   "r": [
+    "apse3",
+    "aps1",
+    "apne1",
+    "sae1",
+    "eun1"
+   ],
+   "i": 1.2,
+   "o": 3.84
+  },
+  {
+   "p": "Z AI",
+   "m": "GLM 5",
+   "r": [
+    "euw2"
+   ],
+   "i": 1.55,
+   "o": 4.96
+  },
+  {
+   "p": "Z AI",
+   "m": "GLM 5",
+   "r": [
+    "apse2"
+   ],
+   "i": 1.03,
+   "o": 3.3
+  },
+  {
+   "p": "Z AI",
+   "m": "GLM 4.7",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.6,
+   "o": 2.2
+  },
+  {
+   "p": "Z AI",
+   "m": "GLM 4.7",
+   "r": [
+    "apse3",
+    "aps1",
+    "apne1",
+    "sae1",
+    "eun1"
+   ],
+   "i": 0.72,
+   "o": 2.64
+  },
+  {
+   "p": "Z AI",
+   "m": "GLM 4.7",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.618,
+   "o": 2.266
+  },
+  {
+   "p": "Z AI",
+   "m": "GLM 4.7 Flash",
+   "r": [
+    "use1",
+    "use2",
+    "usw2"
+   ],
+   "i": 0.07,
+   "o": 0.4
+  },
+  {
+   "p": "Z AI",
+   "m": "GLM 4.7 Flash",
+   "r": [
+    "apse3",
+    "aps1",
+    "apne1",
+    "euc1",
+    "euw1",
+    "eus1",
+    "eun1",
+    "sae1"
+   ],
+   "i": 0.08,
+   "o": 0.48
+  },
+  {
+   "p": "Z AI",
+   "m": "GLM 4.7 Flash",
+   "r": [
+    "euw2"
+   ],
+   "i": 0.11,
+   "o": 0.62
+  },
+  {
+   "p": "Z AI",
+   "m": "GLM 4.7 Flash",
+   "r": [
+    "apse2"
+   ],
+   "i": 0.0721,
+   "o": 0.412
+  }
+ ]
+}
