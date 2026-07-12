@@ -15,11 +15,12 @@ gh auth login                       # 未認証なら
 cd bedrock-pricing
 git init -b main && git add -A && git commit -m "init"
 gh repo create bedrock-pricing --public --source=. --push
-gh api -X POST "repos/{owner}/bedrock-pricing/pages" \
-  -f "source[branch]=main" -f "source[path]=/docs"
+# gh api -X POST "repos/{owner}/bedrock-pricing/pages" -f "source[branch]=main" -f "source[path]=/docs"
+gh api -X POST "repos/atoy0m0/bedrock-pricing/pages" -f "source[branch]=main" -f "source[path]=/docs"
 ```
 
-公開 URL: `https://<owner>.github.io/bedrock-pricing/`
+<!-- 公開 URL: `https://<owner>.github.io/bedrock-pricing/` -->
+公開 URL: `https://atoy0m0.github.io/bedrock-pricing/`
 
 初回はスナップショットデータ（Anthropic 現行 Claude / Nova / Llama 3・4 を含まない）で表示される。
 Actions タブから `update-pricing` を手動実行すると Price List の全量データに置き換わる。
