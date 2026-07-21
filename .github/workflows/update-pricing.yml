@@ -25,10 +25,24 @@ jobs:
       - name: Fetch offer files
         run: |
           set -euo pipefail
+          # Bedrock の料金は 2 つのオファーに分かれている:
+          #   AmazonBedrock                : 旧 Claude・Amazon Nova・サードパーティ
+          #   AmazonBedrockFoundationModels: 新しい Claude（Opus 4.x / Sonnet 5 等）を含む
+          base="https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws"
           for region in $REGIONS; do
-            url="https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/${region}/index.json"
+            url="${base}/AmazonBedrock/current/${region}/index.json"
             echo "fetch: $url"
             curl -fsSL --retry 3 "$url" -o "offer-${region}.json"
+
+            # FoundationModels は一部リージョンで未提供のこともあるため 404 は警告に留める
+            fmurl="${base}/AmazonBedrockFoundationModels/current/${region}/index.json"
+            echo "fetch: $fmurl"
+            if curl -fsSL --retry 3 "$fmurl" -o "offer-fm-${region}.json"; then
+              echo "  ok: offer-fm-${region}.json"
+            else
+              echo "  warn: FoundationModels offer not available for ${region} (skip)"
+              rm -f "offer-fm-${region}.json"
+            fi
           done
 
       - name: Transform

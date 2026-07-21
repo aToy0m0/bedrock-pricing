@@ -52,8 +52,12 @@ gh api -X POST "repos/atoy0m0/bedrock-pricing/pages" -f "source[branch]=main" -f
 ## 🧪 ローカルでの変換確認
 
 ```bash
-curl -fsSL "https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonBedrock/current/ap-northeast-1/index.json" -o offer.json
-node scripts/transform.mjs offer.json > docs/data.json
+base="https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws"
+# 旧 Claude・Nova・サードパーティ
+curl -fsSL "$base/AmazonBedrock/current/ap-northeast-1/index.json" -o offer-ap-northeast-1.json
+# 新しい Claude（Opus 4.x / Sonnet 5 等）を含む
+curl -fsSL "$base/AmazonBedrockFoundationModels/current/ap-northeast-1/index.json" -o offer-fm-ap-northeast-1.json
+node scripts/transform.mjs offer-*.json > docs/data.json
 python3 -m http.server -d docs 8000   # http://localhost:8000
 ```
 
