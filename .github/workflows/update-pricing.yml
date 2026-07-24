@@ -2,15 +2,15 @@ name: update-pricing
 
 on:
   schedule:
-    - cron: "0 21 * * *" # JST 06:00 毎日
+    - cron: "0 21 */2 * *" # JST 06:00 / 2 日に 1 回（UTC 21:00 = 翌 JST 06:00）
   workflow_dispatch:
 
 permissions:
   contents: write
 
 env:
-  # 取得対象リージョン (スペース区切りで追加可能)
-  REGIONS: ap-northeast-1 us-east-1
+  # GovCloud（政府専用）は一般契約者が使えないため対象外にする
+  EXCLUDE_REGION_REGEX: "^us-gov-"
 
 jobs:
   update:
@@ -29,18 +29,34 @@ jobs:
           #   AmazonBedrock                : 旧 Claude・Amazon Nova・サードパーティ
           #   AmazonBedrockFoundationModels: 新しい Claude（Opus 4.x / Sonnet 5 等）を含む
           base="https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws"
-          for region in $REGIONS; do
-            url="${base}/AmazonBedrock/current/${region}/index.json"
-            echo "fetch: $url"
-            curl -fsSL --retry 3 "$url" -o "offer-${region}.json"
 
-            # FoundationModels は一部リージョンで未提供のこともあるため 404 は警告に留める
-            fmurl="${base}/AmazonBedrockFoundationModels/current/${region}/index.json"
-            echo "fetch: $fmurl"
-            if curl -fsSL --retry 3 "$fmurl" -o "offer-fm-${region}.json"; then
-              echo "  ok: offer-fm-${region}.json"
+          # 両オファーの region_index から対象リージョンの和集合を動的に得る
+          # （固定リストを持たず、AWS 側のリージョン追加に自動追従する）
+          curl -fsSL --retry 3 "${base}/AmazonBedrock/current/region_index.json" -o ri-legacy.json
+          curl -fsSL --retry 3 "${base}/AmazonBedrockFoundationModels/current/region_index.json" -o ri-fm.json
+          regions=$(node -e '
+            const a = require("./ri-legacy.json").regions, b = require("./ri-fm.json").regions;
+            const ex = new RegExp(process.env.EXCLUDE_REGION_REGEX);
+            const all = [...new Set([...Object.keys(a), ...Object.keys(b)])]
+              .filter((r) => !ex.test(r)).sort();
+            console.log(all.join(" "));
+          ')
+          echo "対象リージョン: $regions"
+
+          for region in $regions; do
+            # AmazonBedrock（旧オファー）
+            if curl -fsSL --retry 3 "${base}/AmazonBedrock/current/${region}/index.json" -o "offer-${region}.json"; then
+              echo "ok: offer-${region}.json"
             else
-              echo "  warn: FoundationModels offer not available for ${region} (skip)"
+              echo "warn: AmazonBedrock offer not available for ${region} (skip)"
+              rm -f "offer-${region}.json"
+            fi
+
+            # AmazonBedrockFoundationModels（新オファー）
+            if curl -fsSL --retry 3 "${base}/AmazonBedrockFoundationModels/current/${region}/index.json" -o "offer-fm-${region}.json"; then
+              echo "ok: offer-fm-${region}.json"
+            else
+              echo "warn: FoundationModels offer not available for ${region} (skip)"
               rm -f "offer-fm-${region}.json"
             fi
           done

@@ -60,12 +60,50 @@
   }
   .notice strong { color: #8A5A00; }
 
-  .panel {
+  .filters {
     max-width: 1200px;
     margin: 0 auto 14px;
     background: var(--surface);
     border: 1px solid var(--line);
     border-radius: 10px;
+    overflow: hidden;
+  }
+  .filters > summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 11px 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink);
+    user-select: none;
+  }
+  .filters > summary::-webkit-details-marker { display: none; }
+  .filters > summary::before {
+    content: "▸";
+    color: var(--accent);
+    font-size: 11px;
+    transition: transform .15s;
+  }
+  .filters[open] > summary::before { transform: rotate(90deg); }
+  .filters[open] > summary { border-bottom: 1px solid var(--line); }
+  .summary-active {
+    font-size: 11px;
+    font-weight: 600;
+    color: #fff;
+    background: var(--accent);
+    border-radius: 999px;
+    padding: 1px 9px;
+  }
+  .summary-hint {
+    margin-left: auto;
+    font-size: 11px;
+    font-weight: 400;
+    color: var(--ink-soft);
+  }
+  .panel {
     padding: 14px 16px;
     display: flex;
     flex-wrap: wrap;
@@ -231,24 +269,31 @@
 
 <div class="notice" id="loadError" hidden></div>
 
-<div class="panel">
-  <div class="field">
-    <label>プロバイダー</label>
-    <div class="chips" id="providerChips"></div>
+<details class="filters" id="filters">
+  <summary>
+    <span class="summary-label">絞り込み・表示設定</span>
+    <span class="summary-active" id="summaryActive" hidden></span>
+    <span class="summary-hint">クリックで開閉</span>
+  </summary>
+  <div class="panel">
+    <div class="field">
+      <label>プロバイダー</label>
+      <div class="chips" id="providerChips"></div>
+    </div>
+    <div class="field">
+      <label for="regionSel">リージョン</label>
+      <select id="regionSel"><option value="">すべて</option></select>
+    </div>
+    <div class="field">
+      <label for="q">モデル名検索</label>
+      <input type="search" id="q" placeholder="例: Gemma, GLM">
+    </div>
+    <div class="field">
+      <label for="rate">ドル円レート（円換算表示）</label>
+      <input type="number" id="rate" value="150" min="1" step="0.5">
+    </div>
   </div>
-  <div class="field">
-    <label for="regionSel">リージョン</label>
-    <select id="regionSel"><option value="">すべて</option></select>
-  </div>
-  <div class="field">
-    <label for="q">モデル名検索</label>
-    <input type="search" id="q" placeholder="例: Gemma, GLM">
-  </div>
-  <div class="field">
-    <label for="rate">ドル円レート（円換算表示）</label>
-    <input type="number" id="rate" value="150" min="1" step="0.5">
-  </div>
-</div>
+</details>
 
 <div class="tablewrap">
   <table>
@@ -269,7 +314,7 @@
 <footer>
   <h2>このページについて</h2>
   <p>
-    本ページは非公式の参考情報です。データは AWS Price List Bulk API の <code>AmazonBedrock</code> および <code>AmazonBedrockFoundationModels</code> オファーから GitHub Actions で毎日自動取得しています。
+    本ページは非公式の参考情報です。データは AWS Price List Bulk API の <code>AmazonBedrock</code> および <code>AmazonBedrockFoundationModels</code> オファーから GitHub Actions で 2 日に 1 回（JST 06:00 頃）自動取得しています。
     料金は予告なく変更されます。実際の請求は AWS 公式の料金ページおよび請求情報が優先されます。
   </p>
   <p style="margin-top:8px">
@@ -291,12 +336,23 @@ const REGIONS = {
   euw1: "アイルランド", euw2: "ロンドン", euc1: "フランクフルト",
   eun1: "ストックホルム", eus1: "ミラノ", euz1: "チューリッヒ", euw3: "パリ",
   sae1: "サンパウロ", na: "リージョン記載なし",
-  // Price List (regionCode) 由来
-  "us-east-1": "バージニア北部", "us-east-2": "オハイオ", "us-west-2": "オレゴン",
-  "ap-northeast-1": "東京", "ap-southeast-2": "シドニー", "ap-southeast-3": "ジャカルタ",
-  "ap-south-1": "ムンバイ", "eu-west-1": "アイルランド", "eu-west-2": "ロンドン",
-  "eu-west-3": "パリ", "eu-central-1": "フランクフルト", "eu-central-2": "チューリッヒ",
-  "eu-north-1": "ストックホルム", "eu-south-1": "ミラノ", "sa-east-1": "サンパウロ",
+  // Price List (regionCode) 由来 — 商用全リージョン
+  "us-east-1": "バージニア北部", "us-east-2": "オハイオ",
+  "us-west-1": "北カリフォルニア", "us-west-2": "オレゴン",
+  "af-south-1": "ケープタウン",
+  "ap-east-2": "台北",
+  "ap-northeast-1": "東京", "ap-northeast-2": "ソウル", "ap-northeast-3": "大阪",
+  "ap-south-1": "ムンバイ", "ap-south-2": "ハイデラバード",
+  "ap-southeast-1": "シンガポール", "ap-southeast-2": "シドニー",
+  "ap-southeast-3": "ジャカルタ", "ap-southeast-4": "メルボルン",
+  "ap-southeast-5": "マレーシア", "ap-southeast-6": "ニュージーランド",
+  "ap-southeast-7": "タイ",
+  "ca-central-1": "カナダ中部", "ca-west-1": "カルガリー",
+  "eu-central-1": "フランクフルト", "eu-central-2": "チューリッヒ",
+  "eu-north-1": "ストックホルム", "eu-south-1": "ミラノ", "eu-south-2": "スペイン",
+  "eu-west-1": "アイルランド", "eu-west-2": "ロンドン", "eu-west-3": "パリ",
+  "il-central-1": "テルアビブ", "me-central-1": "UAE", "me-south-1": "バーレーン",
+  "mx-central-1": "メキシコ中部", "sa-east-1": "サンパウロ",
 };
 const US3 = ["use1", "use2", "usw2"];
 
@@ -366,6 +422,18 @@ function render() {
   }
   tbody.appendChild(frag);
   $("count").textContent = `${data.length} / ${rows.length} 行`;
+  updateSummary();
+}
+
+// 折りたたみ時にも現在の絞り込み状態が分かるようサマリへバッジ表示
+function updateSummary() {
+  const parts = [];
+  if (state.region) parts.push(regionLabel(state.region));
+  if (state.providers.size) parts.push(`${state.providers.size} プロバイダー`);
+  if (state.query) parts.push(`"${state.query}"`);
+  const el = $("summaryActive");
+  if (parts.length) { el.textContent = parts.join(" ・ "); el.hidden = false; }
+  else el.hidden = true;
 }
 
 function buildControls() {

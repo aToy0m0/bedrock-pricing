@@ -1,7 +1,7 @@
 # 🪨 Bedrock 料金エクスプローラー
 
 > Amazon Bedrock のオンデマンド料金（トークン単価）をプロバイダー横断で **フィルタ・ソート・円換算表示** する静的ページ。
-> データは AWS Price List Bulk API から GitHub Actions で **毎日自動更新** される。
+> データは AWS Price List Bulk API から GitHub Actions で **2 日に 1 回自動更新**（JST 06:00 頃）される。商用全リージョンに対応。
 
 <p align="center">
   <a href="https://atoy0m0.github.io/bedrock-pricing/">
@@ -11,7 +11,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/data-AWS_Price_List_Bulk_API-B4540A?style=flat-square" alt="data source">
-  <img src="https://img.shields.io/badge/update-daily_(JST_06:00)-0B5B54?style=flat-square" alt="update schedule">
+  <img src="https://img.shields.io/badge/update-every_2_days_(JST_06:00)-0B5B54?style=flat-square" alt="update schedule">
   <img src="https://img.shields.io/badge/hosting-GitHub_Pages-24292F?style=flat-square&logo=github" alt="hosting">
 </p>
 
@@ -26,7 +26,7 @@
 | `docs/index.html` | 表示（GitHub Pages が公開） |
 | `docs/data.json` | データ本体（Actions が生成） |
 | `scripts/transform.mjs` | Price List → `data.json` の変換 |
-| `.github/workflows/update-pricing.yml` | 自動更新（毎日 JST 06:00 / 手動実行可） |
+| `.github/workflows/update-pricing.yml` | 自動更新（2 日に 1 回 JST 06:00 / 手動実行可） |
 
 ## 🚀 セットアップ
 
@@ -45,9 +45,11 @@ gh api -X POST "repos/atoy0m0/bedrock-pricing/pages" -f "source[branch]=main" -f
 > 初回はスナップショットデータ（Anthropic 現行 Claude / Nova / Llama 3・4 を含まない）で表示される。
 > Actions タブから `update-pricing` を手動実行すると Price List の全量データに置き換わる。
 
-## 🌏 対象リージョンの変更
+## 🌏 対象リージョン
 
-`.github/workflows/update-pricing.yml` の `REGIONS` を編集する（スペース区切り）。
+両オファーの `region_index.json` から **商用全リージョンを動的に取得**する（AWS 側のリージョン追加に自動追従）。
+除外したいリージョンは `.github/workflows/update-pricing.yml` の `EXCLUDE_REGION_REGEX` を編集する
+（既定では GovCloud `^us-gov-` を除外）。
 
 ## 🧪 ローカルでの変換確認
 
