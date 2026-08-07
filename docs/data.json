@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-05T22:07:56.456Z",
+ "generatedAt": "2026-08-07T21:33:06.868Z",
  "source": "AWS Price List Bulk API (AmazonBedrock + AmazonBedrockFoundationModels)",
  "publicationDate": "2026-08-04T16:55:49Z",
  "rows": [
@@ -3537,7 +3537,7 @@
    "r": [
     "us-east-2"
    ],
-   "i": 0.8,
+   "i": 1,
    "o": 5
   },
   {
@@ -5425,19 +5425,28 @@
    "p": "Anthropic",
    "m": "Claude Mythos 5",
    "r": [
-    "ap-southeast-4"
+    "us-east-1"
    ],
    "i": 11,
    "o": 55
   },
   {
    "p": "Anthropic",
-   "m": "Claude Mythos 5",
+   "m": "Claude Mythos Preview",
+   "r": [
+    "ap-southeast-4"
+   ],
+   "i": 27.5,
+   "o": 137.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos Preview",
    "r": [
     "us-east-1"
    ],
-   "i": 11,
-   "o": 55
+   "i": 27.5,
+   "o": 137.5
   },
   {
    "p": "Anthropic",
