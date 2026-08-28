@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-08-25T21:21:19.593Z",
+ "generatedAt": "2026-08-28T05:03:02.931Z",
  "source": "AWS Price List Bulk API (AmazonBedrock + AmazonBedrockFoundationModels)",
- "publicationDate": "2026-08-24T22:15:29Z",
+ "publicationDate": "2026-08-26T18:19:19Z",
  "rows": [
   {
    "p": "AI21 Labs",
@@ -171,7 +171,7 @@
    "r": [
     "us-east-1"
    ],
-   "i": 0.3,
+   "i": 0.33,
    "o": 2.5
   },
   {
