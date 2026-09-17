@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-15T23:22:02.625Z",
+ "generatedAt": "2026-09-17T23:19:37.067Z",
  "source": "AWS Price List Bulk API (AmazonBedrock + AmazonBedrockFoundationModels)",
- "publicationDate": "2026-09-15T15:20:20Z",
+ "publicationDate": "2026-09-17T23:16:09Z",
  "rows": [
   {
    "p": "AI21 Labs",
@@ -172,7 +172,7 @@
     "us-east-1"
    ],
    "i": 0.33,
-   "o": 2.5
+   "o": 2.75
   },
   {
    "p": "Amazon",
@@ -16616,6 +16616,924 @@
    ],
    "i": 0.3,
    "o": 1.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "af-south-1"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "ap-east-1"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "ap-east-2"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "ap-northeast-1"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "ap-northeast-2"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "ap-northeast-3"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "ap-south-1"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "ap-south-2"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "ap-southeast-1"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "ap-southeast-2"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "ap-southeast-3"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "ap-southeast-4"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "ap-southeast-5"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "ap-southeast-6"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "ap-southeast-7"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "eu-central-1"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "eu-central-2"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "eu-north-1"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "eu-south-1"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "eu-south-2"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "eu-west-1"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "eu-west-2"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "eu-west-3"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "il-central-1"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "me-central-1"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "me-south-1"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "mx-central-1"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "sa-east-1"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 3.3,
+   "o": 16.5
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "af-south-1"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "ap-east-1"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "ap-east-2"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "ap-northeast-1"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "ap-northeast-2"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "ap-northeast-3"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "ap-south-1"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "ap-south-2"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "ap-southeast-1"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "ap-southeast-2"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "ap-southeast-3"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "ap-southeast-4"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "ap-southeast-5"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "ap-southeast-6"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "ap-southeast-7"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "eu-central-1"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "eu-central-2"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "eu-north-1"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "eu-south-1"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "eu-south-2"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "eu-west-1"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "eu-west-2"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "eu-west-3"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "il-central-1"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "me-central-1"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "me-south-1"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "mx-central-1"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "sa-east-1"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (クロスリージョン)",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 3,
+   "o": 15
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "af-south-1"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "ap-east-1"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "ap-east-2"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "ap-northeast-1"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "ap-northeast-2"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "ap-northeast-3"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "ap-south-1"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "ap-south-2"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "ap-southeast-1"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "ap-southeast-2"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "ap-southeast-3"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "ap-southeast-4"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "ap-southeast-5"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "ap-southeast-6"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "ap-southeast-7"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "eu-central-1"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "eu-central-2"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "eu-north-1"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "eu-south-1"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "eu-south-2"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "eu-west-1"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "eu-west-2"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "eu-west-3"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "il-central-1"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "me-central-1"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "me-south-1"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "mx-central-1"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "sa-east-1"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 1.65,
+   "o": 8.25
+  },
+  {
+   "p": "Moonshot AI",
+   "m": "Kimi K3 (バッチ)",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 1.65,
+   "o": 8.25
   },
   {
    "p": "NVIDIA",
