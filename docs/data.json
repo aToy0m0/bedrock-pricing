@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-09-21T23:46:19.502Z",
+ "generatedAt": "2026-09-23T23:23:31.991Z",
  "source": "AWS Price List Bulk API (AmazonBedrock + AmazonBedrockFoundationModels)",
- "publicationDate": "2026-09-17T23:16:09Z",
+ "publicationDate": "2026-09-22T21:21:39Z",
  "rows": [
   {
    "p": "AI21 Labs",
@@ -8804,6 +8804,465 @@
    ],
    "i": 2.75,
    "o": 13.75
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5",
+   "r": [
+    "ap-northeast-1"
+   ],
+   "i": 4.4,
+   "o": 22
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5",
+   "r": [
+    "ap-northeast-3"
+   ],
+   "i": 4.4,
+   "o": 22
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5",
+   "r": [
+    "ap-southeast-2"
+   ],
+   "i": 4.4,
+   "o": 22
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5",
+   "r": [
+    "ap-southeast-4"
+   ],
+   "i": 4.4,
+   "o": 22
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 4.4,
+   "o": 22
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 4.4,
+   "o": 22
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5",
+   "r": [
+    "eu-central-1"
+   ],
+   "i": 4.4,
+   "o": 22
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5",
+   "r": [
+    "eu-central-2"
+   ],
+   "i": 4.4,
+   "o": 22
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5",
+   "r": [
+    "eu-north-1"
+   ],
+   "i": 4.4,
+   "o": 22
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5",
+   "r": [
+    "eu-south-1"
+   ],
+   "i": 4.4,
+   "o": 22
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5",
+   "r": [
+    "eu-south-2"
+   ],
+   "i": 4.4,
+   "o": 22
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5",
+   "r": [
+    "eu-west-1"
+   ],
+   "i": 4.4,
+   "o": 22
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5",
+   "r": [
+    "eu-west-2"
+   ],
+   "i": 4.4,
+   "o": 22
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5",
+   "r": [
+    "eu-west-3"
+   ],
+   "i": 4.4,
+   "o": 22
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 4.4,
+   "o": 22
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 4.4,
+   "o": 22
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 4.4,
+   "o": 22
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 4.4,
+   "o": 22
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "af-south-1"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "ap-east-2"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "ap-northeast-1"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "ap-northeast-2"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "ap-northeast-3"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "ap-south-1"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "ap-south-2"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "ap-southeast-1"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "ap-southeast-2"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "ap-southeast-3"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "ap-southeast-4"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "ap-southeast-5"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "ap-southeast-6"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "ap-southeast-7"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "eu-central-1"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "eu-central-2"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "eu-north-1"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "eu-south-1"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "eu-south-2"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "eu-west-1"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "eu-west-2"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "eu-west-3"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "il-central-1"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "me-central-1"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "me-south-1"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "mx-central-1"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "sa-east-1"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Opus 5.5 (クロスリージョン)",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 4,
+   "o": 20
   },
   {
    "p": "Anthropic",
