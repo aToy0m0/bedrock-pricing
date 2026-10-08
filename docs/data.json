@@ -1,7 +1,7 @@
 {
- "generatedAt": "2026-10-06T01:38:08.191Z",
+ "generatedAt": "2026-10-08T00:39:52.470Z",
  "source": "AWS Price List Bulk API (AmazonBedrock + AmazonBedrockFoundationModels)",
- "publicationDate": "2026-10-05T21:04:10Z",
+ "publicationDate": "2026-10-06T14:47:26Z",
  "rows": [
   {
    "p": "AI21 Labs",
@@ -1226,6 +1226,42 @@
    ],
    "i": 0.6875,
    "o": 5.5
+  },
+  {
+   "p": "Amazon",
+   "m": "Nova 2.5 Sonic",
+   "r": [
+    "ap-northeast-1"
+   ],
+   "i": 0.39599999999999996,
+   "o": 3.311
+  },
+  {
+   "p": "Amazon",
+   "m": "Nova 2.5 Sonic",
+   "r": [
+    "eu-north-1"
+   ],
+   "i": 0.363,
+   "o": 2.992
+  },
+  {
+   "p": "Amazon",
+   "m": "Nova 2.5 Sonic",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 0.33,
+   "o": 2.75
+  },
+  {
+   "p": "Amazon",
+   "m": "Nova 2.5 Sonic",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 0.319,
+   "o": 2.6510000000000002
   },
   {
    "p": "Amazon",
@@ -5744,6 +5780,465 @@
    ],
    "i": 0.55,
    "o": 2.75
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5",
+   "r": [
+    "ap-northeast-1"
+   ],
+   "i": 0.11,
+   "o": 2.75
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5",
+   "r": [
+    "ap-northeast-3"
+   ],
+   "i": 0.55,
+   "o": 0.55
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5",
+   "r": [
+    "ap-southeast-2"
+   ],
+   "i": 0.11,
+   "o": 0.55
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5",
+   "r": [
+    "ap-southeast-4"
+   ],
+   "i": 0.55,
+   "o": 2.75
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 0.11,
+   "o": 2.75
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 0.55,
+   "o": 0.55
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5",
+   "r": [
+    "eu-central-1"
+   ],
+   "i": 0.11,
+   "o": 2.75
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5",
+   "r": [
+    "eu-central-2"
+   ],
+   "i": 0.55,
+   "o": 2.75
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5",
+   "r": [
+    "eu-north-1"
+   ],
+   "i": 0.55,
+   "o": 0.55
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5",
+   "r": [
+    "eu-south-1"
+   ],
+   "i": 0.11,
+   "o": 0.55
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5",
+   "r": [
+    "eu-south-2"
+   ],
+   "i": 0.55,
+   "o": 2.75
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5",
+   "r": [
+    "eu-west-1"
+   ],
+   "i": 0.11,
+   "o": 2.75
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5",
+   "r": [
+    "eu-west-2"
+   ],
+   "i": 0.55,
+   "o": 2.75
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5",
+   "r": [
+    "eu-west-3"
+   ],
+   "i": 0.55,
+   "o": 2.75
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 0.55,
+   "o": 2.75
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 0.55,
+   "o": 0.55
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 0.55,
+   "o": 2.75
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 0.11,
+   "o": 2.75
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "af-south-1"
+   ],
+   "i": 0.5,
+   "o": 2.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "ap-east-2"
+   ],
+   "i": 0.5,
+   "o": 2.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "ap-northeast-1"
+   ],
+   "i": 0.5,
+   "o": 2.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "ap-northeast-2"
+   ],
+   "i": 0.1,
+   "o": 2.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "ap-northeast-3"
+   ],
+   "i": 0.5,
+   "o": 0.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "ap-south-1"
+   ],
+   "i": 0.5,
+   "o": 0.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "ap-south-2"
+   ],
+   "i": 0.1,
+   "o": 2.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "ap-southeast-1"
+   ],
+   "i": 0.5,
+   "o": 2.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "ap-southeast-2"
+   ],
+   "i": 0.1,
+   "o": 2.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "ap-southeast-3"
+   ],
+   "i": 0.5,
+   "o": 2.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "ap-southeast-4"
+   ],
+   "i": 0.1,
+   "o": 0.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "ap-southeast-5"
+   ],
+   "i": 0.1,
+   "o": 0.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "ap-southeast-6"
+   ],
+   "i": 0.5,
+   "o": 0.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "ap-southeast-7"
+   ],
+   "i": 0.1,
+   "o": 2.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 0.5,
+   "o": 2.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 0.5,
+   "o": 0.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "eu-central-1"
+   ],
+   "i": 0.5,
+   "o": 2.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "eu-central-2"
+   ],
+   "i": 0.1,
+   "o": 2.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "eu-north-1"
+   ],
+   "i": 0.1,
+   "o": 0.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "eu-south-1"
+   ],
+   "i": 0.1,
+   "o": 2.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "eu-south-2"
+   ],
+   "i": 0.5,
+   "o": 0.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "eu-west-1"
+   ],
+   "i": 0.1,
+   "o": 2.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "eu-west-2"
+   ],
+   "i": 0.1,
+   "o": 0.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "eu-west-3"
+   ],
+   "i": 0.5,
+   "o": 0.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "il-central-1"
+   ],
+   "i": 0.5,
+   "o": 0.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "me-central-1"
+   ],
+   "i": 0.5,
+   "o": 2.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "me-south-1"
+   ],
+   "i": 0.1,
+   "o": 0.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "mx-central-1"
+   ],
+   "i": 0.5,
+   "o": 0.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "sa-east-1"
+   ],
+   "i": 0.1,
+   "o": 0.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 0.5,
+   "o": 2.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 0.1,
+   "o": 2.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 0.1,
+   "o": 0.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 0.1,
+   "o": 0.5
   },
   {
    "p": "Anthropic",
