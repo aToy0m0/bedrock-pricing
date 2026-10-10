@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-08T00:39:52.470Z",
+ "generatedAt": "2026-10-10T00:26:21.078Z",
  "source": "AWS Price List Bulk API (AmazonBedrock + AmazonBedrockFoundationModels)",
  "publicationDate": "2026-10-06T14:47:26Z",
  "rows": [
@@ -3574,7 +3574,7 @@
     "us-east-2"
    ],
    "i": 1,
-   "o": 5
+   "o": 4
   },
   {
    "p": "Anthropic",
@@ -5787,7 +5787,7 @@
    "r": [
     "ap-northeast-1"
    ],
-   "i": 0.11,
+   "i": 0.55,
    "o": 2.75
   },
   {
@@ -5806,7 +5806,7 @@
     "ap-southeast-2"
    ],
    "i": 0.11,
-   "o": 0.55
+   "o": 2.75
   },
   {
    "p": "Anthropic",
@@ -5815,7 +5815,7 @@
     "ap-southeast-4"
    ],
    "i": 0.55,
-   "o": 2.75
+   "o": 0.55
   },
   {
    "p": "Anthropic",
@@ -5823,8 +5823,8 @@
    "r": [
     "ca-central-1"
    ],
-   "i": 0.11,
-   "o": 2.75
+   "i": 0.55,
+   "o": 0.55
   },
   {
    "p": "Anthropic",
@@ -5842,7 +5842,7 @@
     "eu-central-1"
    ],
    "i": 0.11,
-   "o": 2.75
+   "o": 0.55
   },
   {
    "p": "Anthropic",
@@ -5850,8 +5850,8 @@
    "r": [
     "eu-central-2"
    ],
-   "i": 0.55,
-   "o": 2.75
+   "i": 0.11,
+   "o": 0.55
   },
   {
    "p": "Anthropic",
@@ -5859,7 +5859,7 @@
    "r": [
     "eu-north-1"
    ],
-   "i": 0.55,
+   "i": 0.11,
    "o": 0.55
   },
   {
@@ -5869,7 +5869,7 @@
     "eu-south-1"
    ],
    "i": 0.11,
-   "o": 0.55
+   "o": 2.75
   },
   {
    "p": "Anthropic",
@@ -5878,7 +5878,7 @@
     "eu-south-2"
    ],
    "i": 0.55,
-   "o": 2.75
+   "o": 0.55
   },
   {
    "p": "Anthropic",
@@ -5913,8 +5913,8 @@
    "r": [
     "us-east-1"
    ],
-   "i": 0.55,
-   "o": 2.75
+   "i": 0.11,
+   "o": 0.55
   },
   {
    "p": "Anthropic",
@@ -5922,8 +5922,8 @@
    "r": [
     "us-east-2"
    ],
-   "i": 0.55,
-   "o": 0.55
+   "i": 0.11,
+   "o": 2.75
   },
   {
    "p": "Anthropic",
@@ -5931,8 +5931,8 @@
    "r": [
     "us-west-1"
    ],
-   "i": 0.55,
-   "o": 2.75
+   "i": 0.11,
+   "o": 0.55
   },
   {
    "p": "Anthropic",
@@ -5940,8 +5940,8 @@
    "r": [
     "us-west-2"
    ],
-   "i": 0.11,
-   "o": 2.75
+   "i": 0.55,
+   "o": 0.55
   },
   {
    "p": "Anthropic",
@@ -5949,8 +5949,8 @@
    "r": [
     "af-south-1"
    ],
-   "i": 0.5,
-   "o": 2.5
+   "i": 0.1,
+   "o": 0.5
   },
   {
    "p": "Anthropic",
@@ -5958,8 +5958,8 @@
    "r": [
     "ap-east-2"
    ],
-   "i": 0.5,
-   "o": 2.5
+   "i": 0.1,
+   "o": 0.5
   },
   {
    "p": "Anthropic",
@@ -5976,7 +5976,7 @@
    "r": [
     "ap-northeast-2"
    ],
-   "i": 0.1,
+   "i": 0.5,
    "o": 2.5
   },
   {
@@ -5985,7 +5985,7 @@
    "r": [
     "ap-northeast-3"
    ],
-   "i": 0.5,
+   "i": 0.1,
    "o": 0.5
   },
   {
@@ -5994,7 +5994,7 @@
    "r": [
     "ap-south-1"
    ],
-   "i": 0.5,
+   "i": 0.1,
    "o": 0.5
   },
   {
@@ -6003,7 +6003,7 @@
    "r": [
     "ap-south-2"
    ],
-   "i": 0.1,
+   "i": 0.5,
    "o": 2.5
   },
   {
@@ -6012,7 +6012,7 @@
    "r": [
     "ap-southeast-1"
    ],
-   "i": 0.5,
+   "i": 0.1,
    "o": 2.5
   },
   {
@@ -6022,7 +6022,7 @@
     "ap-southeast-2"
    ],
    "i": 0.1,
-   "o": 2.5
+   "o": 0.5
   },
   {
    "p": "Anthropic",
@@ -6030,7 +6030,7 @@
    "r": [
     "ap-southeast-3"
    ],
-   "i": 0.5,
+   "i": 0.1,
    "o": 2.5
   },
   {
@@ -6039,8 +6039,8 @@
    "r": [
     "ap-southeast-4"
    ],
-   "i": 0.1,
-   "o": 0.5
+   "i": 0.5,
+   "o": 2.5
   },
   {
    "p": "Anthropic",
@@ -6048,8 +6048,8 @@
    "r": [
     "ap-southeast-5"
    ],
-   "i": 0.1,
-   "o": 0.5
+   "i": 0.5,
+   "o": 2.5
   },
   {
    "p": "Anthropic",
@@ -6058,7 +6058,7 @@
     "ap-southeast-6"
    ],
    "i": 0.5,
-   "o": 0.5
+   "o": 2.5
   },
   {
    "p": "Anthropic",
@@ -6066,8 +6066,8 @@
    "r": [
     "ap-southeast-7"
    ],
-   "i": 0.1,
-   "o": 2.5
+   "i": 0.5,
+   "o": 0.5
   },
   {
    "p": "Anthropic",
@@ -6075,8 +6075,8 @@
    "r": [
     "ca-central-1"
    ],
-   "i": 0.5,
-   "o": 2.5
+   "i": 0.1,
+   "o": 0.5
   },
   {
    "p": "Anthropic",
@@ -6085,7 +6085,7 @@
     "ca-west-1"
    ],
    "i": 0.5,
-   "o": 0.5
+   "o": 2.5
   },
   {
    "p": "Anthropic",
@@ -6094,40 +6094,13 @@
     "eu-central-1"
    ],
    "i": 0.5,
-   "o": 2.5
-  },
-  {
-   "p": "Anthropic",
-   "m": "Claude Haiku 5.5 (クロスリージョン)",
-   "r": [
-    "eu-central-2"
-   ],
-   "i": 0.1,
-   "o": 2.5
-  },
-  {
-   "p": "Anthropic",
-   "m": "Claude Haiku 5.5 (クロスリージョン)",
-   "r": [
-    "eu-north-1"
-   ],
-   "i": 0.1,
    "o": 0.5
   },
   {
    "p": "Anthropic",
    "m": "Claude Haiku 5.5 (クロスリージョン)",
    "r": [
-    "eu-south-1"
-   ],
-   "i": 0.1,
-   "o": 2.5
-  },
-  {
-   "p": "Anthropic",
-   "m": "Claude Haiku 5.5 (クロスリージョン)",
-   "r": [
-    "eu-south-2"
+    "eu-central-2"
    ],
    "i": 0.5,
    "o": 0.5
@@ -6136,10 +6109,37 @@
    "p": "Anthropic",
    "m": "Claude Haiku 5.5 (クロスリージョン)",
    "r": [
+    "eu-north-1"
+   ],
+   "i": 0.5,
+   "o": 2.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "eu-south-1"
+   ],
+   "i": 0.1,
+   "o": 0.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
+    "eu-south-2"
+   ],
+   "i": 0.5,
+   "o": 2.5
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Haiku 5.5 (クロスリージョン)",
+   "r": [
     "eu-west-1"
    ],
    "i": 0.1,
-   "o": 2.5
+   "o": 0.5
   },
   {
    "p": "Anthropic",
@@ -6156,7 +6156,7 @@
    "r": [
     "eu-west-3"
    ],
-   "i": 0.5,
+   "i": 0.1,
    "o": 0.5
   },
   {
@@ -6166,7 +6166,7 @@
     "il-central-1"
    ],
    "i": 0.5,
-   "o": 0.5
+   "o": 2.5
   },
   {
    "p": "Anthropic",
@@ -6174,7 +6174,7 @@
    "r": [
     "me-central-1"
    ],
-   "i": 0.5,
+   "i": 0.1,
    "o": 2.5
   },
   {
@@ -6192,7 +6192,7 @@
    "r": [
     "mx-central-1"
    ],
-   "i": 0.5,
+   "i": 0.1,
    "o": 0.5
   },
   {
@@ -6201,8 +6201,8 @@
    "r": [
     "sa-east-1"
    ],
-   "i": 0.1,
-   "o": 0.5
+   "i": 0.5,
+   "o": 2.5
   },
   {
    "p": "Anthropic",
@@ -6210,7 +6210,7 @@
    "r": [
     "us-east-1"
    ],
-   "i": 0.5,
+   "i": 0.1,
    "o": 2.5
   },
   {
@@ -6219,8 +6219,8 @@
    "r": [
     "us-east-2"
    ],
-   "i": 0.1,
-   "o": 2.5
+   "i": 0.5,
+   "o": 0.5
   },
   {
    "p": "Anthropic",
@@ -6237,7 +6237,7 @@
    "r": [
     "us-west-2"
    ],
-   "i": 0.1,
+   "i": 0.5,
    "o": 0.5
   },
   {
@@ -21820,6 +21820,330 @@
    "o": 7.5
   },
   {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5",
+   "r": [
+    "us-east-1"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5",
+   "r": [
+    "us-east-2"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5",
+   "r": [
+    "us-west-1"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5",
+   "r": [
+    "us-west-2"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "af-south-1"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "ap-east-2"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "ap-northeast-1"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "ap-northeast-2"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "ap-northeast-3"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "ap-south-1"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "ap-south-2"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "ap-southeast-1"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "ap-southeast-2"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "ap-southeast-3"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "ap-southeast-4"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "ap-southeast-5"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "ap-southeast-7"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "eu-central-1"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "eu-central-2"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "eu-north-1"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "eu-south-1"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "eu-south-2"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "eu-west-1"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "eu-west-2"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "eu-west-3"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "il-central-1"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "me-central-1"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "me-south-1"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "mx-central-1"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "sa-east-1"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "us-east-1"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "us-east-2"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "us-west-1"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
+   "p": "TwelveLabs",
+   "m": "TwelveLabs Pegasus 1.5 (クロスリージョン)",
+   "r": [
+    "us-west-2"
+   ],
+   "i": null,
+   "o": 7.5
+  },
+  {
    "p": "Writer",
    "m": "Palmyra X4",
    "r": [
@@ -24876,8 +25200,8 @@
    "r": [
     "ca-central-1"
    ],
-   "i": 11,
-   "o": 82.5
+   "i": 22,
+   "o": 55
   },
   {
    "p": "その他",
@@ -24885,7 +25209,7 @@
    "r": [
     "us-east-1"
    ],
-   "i": 22,
+   "i": 11,
    "o": 55
   },
   {
@@ -24894,8 +25218,8 @@
    "r": [
     "us-east-2"
    ],
-   "i": 22,
-   "o": 82.5
+   "i": 11,
+   "o": 55
   },
   {
    "p": "その他",
@@ -24913,7 +25237,7 @@
     "us-west-2"
    ],
    "i": 11,
-   "o": 55
+   "o": 82.5
   },
   {
    "p": "その他",
@@ -24921,7 +25245,7 @@
    "r": [
     "ap-northeast-1"
    ],
-   "i": 10,
+   "i": 20,
    "o": 50
   },
   {
@@ -24930,7 +25254,7 @@
    "r": [
     "ap-northeast-2"
    ],
-   "i": 20,
+   "i": 10,
    "o": 50
   },
   {
@@ -24940,7 +25264,7 @@
     "ap-northeast-3"
    ],
    "i": 10,
-   "o": 50
+   "o": 75
   },
   {
    "p": "その他",
@@ -24949,7 +25273,7 @@
     "ap-south-1"
    ],
    "i": 20,
-   "o": 50
+   "o": 75
   },
   {
    "p": "その他",
@@ -24957,8 +25281,8 @@
    "r": [
     "ap-southeast-1"
    ],
-   "i": 10,
-   "o": 75
+   "i": 20,
+   "o": 50
   },
   {
    "p": "その他",
@@ -24966,7 +25290,7 @@
    "r": [
     "ap-southeast-2"
    ],
-   "i": 20,
+   "i": 10,
    "o": 50
   },
   {
@@ -24975,7 +25299,7 @@
    "r": [
     "ca-central-1"
    ],
-   "i": 20,
+   "i": 10,
    "o": 75
   },
   {
@@ -24993,7 +25317,7 @@
    "r": [
     "eu-north-1"
    ],
-   "i": 10,
+   "i": 20,
    "o": 75
   },
   {
@@ -25002,7 +25326,7 @@
    "r": [
     "eu-west-1"
    ],
-   "i": 20,
+   "i": 10,
    "o": 75
   },
   {
@@ -25011,7 +25335,7 @@
    "r": [
     "eu-west-2"
    ],
-   "i": 20,
+   "i": 10,
    "o": 75
   },
   {
@@ -25020,7 +25344,7 @@
    "r": [
     "eu-west-3"
    ],
-   "i": 10,
+   "i": 20,
    "o": 50
   },
   {
@@ -25047,8 +25371,8 @@
    "r": [
     "us-east-2"
    ],
-   "i": 20,
-   "o": 50
+   "i": 10,
+   "o": 75
   },
   {
    "p": "その他",
@@ -25056,7 +25380,7 @@
    "r": [
     "us-west-1"
    ],
-   "i": 20,
+   "i": 10,
    "o": 75
   },
   {
@@ -25066,7 +25390,7 @@
     "us-west-2"
    ],
    "i": 10,
-   "o": 50
+   "o": 75
   },
   {
    "p": "その他",
