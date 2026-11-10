@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-08T00:08:19.999Z",
+ "generatedAt": "2026-11-10T03:06:00.030Z",
  "source": "AWS Price List Bulk API (AmazonBedrock + AmazonBedrockFoundationModels)",
  "publicationDate": "2026-11-06T18:45:38Z",
  "rows": [
@@ -5126,6 +5126,429 @@
   },
   {
    "p": "Anthropic",
+   "m": "Claude Fable 5.2",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2",
+   "r": [
+    "eu-central-1"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2",
+   "r": [
+    "eu-central-2"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2",
+   "r": [
+    "eu-north-1"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2",
+   "r": [
+    "eu-south-1"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2",
+   "r": [
+    "eu-south-2"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2",
+   "r": [
+    "eu-west-1"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2",
+   "r": [
+    "eu-west-2"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2",
+   "r": [
+    "eu-west-3"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "af-south-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "ap-east-2"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "ap-northeast-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "ap-northeast-2"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "ap-northeast-3"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "ap-south-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "ap-south-2"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "ap-southeast-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "ap-southeast-2"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "ap-southeast-3"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "ap-southeast-4"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "ap-southeast-5"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "ap-southeast-6"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "ap-southeast-7"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "eu-central-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "eu-central-2"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "eu-north-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "eu-south-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "eu-south-2"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "eu-west-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "eu-west-2"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "eu-west-3"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "il-central-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "me-central-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "me-south-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "mx-central-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "sa-east-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Fable 5.2 (クロスリージョン)",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
    "m": "Claude Haiku 4.5",
    "r": [
     "ap-northeast-1"
@@ -6662,6 +7085,429 @@
    ],
    "i": 10,
    "o": 50
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2",
+   "r": [
+    "eu-central-1"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2",
+   "r": [
+    "eu-central-2"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2",
+   "r": [
+    "eu-north-1"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2",
+   "r": [
+    "eu-south-1"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2",
+   "r": [
+    "eu-south-2"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2",
+   "r": [
+    "eu-west-1"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2",
+   "r": [
+    "eu-west-2"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2",
+   "r": [
+    "eu-west-3"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 8.8,
+   "o": 44
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "af-south-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "ap-east-2"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "ap-northeast-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "ap-northeast-2"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "ap-northeast-3"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "ap-south-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "ap-south-2"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "ap-southeast-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "ap-southeast-2"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "ap-southeast-3"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "ap-southeast-4"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "ap-southeast-5"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "ap-southeast-6"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "ap-southeast-7"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "eu-central-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "eu-central-2"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "eu-north-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "eu-south-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "eu-south-2"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "eu-west-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "eu-west-2"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "eu-west-3"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "il-central-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "me-central-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "me-south-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "mx-central-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "sa-east-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 8,
+   "o": 40
+  },
+  {
+   "p": "Anthropic",
+   "m": "Claude Mythos 5.2 (クロスリージョン)",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 8,
+   "o": 40
   },
   {
    "p": "Anthropic",
@@ -25196,6 +26042,1176 @@
   },
   {
    "p": "その他",
+   "m": "OpenAI GPT-5.4",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 5.5,
+   "o": 24.75
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.4",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 5.5,
+   "o": 16.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.4",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 5.5,
+   "o": 24.75
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.4",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 2.75,
+   "o": 16.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.4",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 2.75,
+   "o": 24.75
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.4",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 5.5,
+   "o": 24.75
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.5",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 11,
+   "o": 33
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.5",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 5.5,
+   "o": 33
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.5",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 11,
+   "o": 49.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.5",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 5.5,
+   "o": 49.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.5",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 5.5,
+   "o": 33
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.5",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 5.5,
+   "o": 49.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna",
+   "r": [
+    "ap-south-1"
+   ],
+   "i": 0.22,
+   "o": 1.98
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna",
+   "r": [
+    "ap-south-2"
+   ],
+   "i": 0.44,
+   "o": 1.98
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 0.22,
+   "o": 1.98
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 0.22,
+   "o": 1.32
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 0.22,
+   "o": 1.32
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 0.22,
+   "o": 1.98
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 0.44,
+   "o": 1.98
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 0.44,
+   "o": 1.98
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "af-south-1"
+   ],
+   "i": 0.2,
+   "o": 1.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "ap-east-2"
+   ],
+   "i": 0.2,
+   "o": 1.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "ap-northeast-1"
+   ],
+   "i": 0.4,
+   "o": 1.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "ap-northeast-2"
+   ],
+   "i": 0.2,
+   "o": 1.8
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "ap-northeast-3"
+   ],
+   "i": 0.2,
+   "o": 1.8
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "ap-south-1"
+   ],
+   "i": 0.2,
+   "o": 1.8
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "ap-south-2"
+   ],
+   "i": 0.4,
+   "o": 1.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "ap-southeast-1"
+   ],
+   "i": 0.4,
+   "o": 1.8
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "ap-southeast-2"
+   ],
+   "i": 0.4,
+   "o": 1.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "ap-southeast-3"
+   ],
+   "i": 0.4,
+   "o": 1.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "ap-southeast-4"
+   ],
+   "i": 0.2,
+   "o": 1.8
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "ap-southeast-5"
+   ],
+   "i": 0.4,
+   "o": 1.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "ap-southeast-6"
+   ],
+   "i": 0.4,
+   "o": 1.8
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "ap-southeast-7"
+   ],
+   "i": 0.2,
+   "o": 1.8
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 0.4,
+   "o": 1.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 0.4,
+   "o": 1.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "eu-central-1"
+   ],
+   "i": 0.2,
+   "o": 1.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "eu-central-2"
+   ],
+   "i": 0.4,
+   "o": 1.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "eu-north-1"
+   ],
+   "i": 0.4,
+   "o": 1.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "eu-south-1"
+   ],
+   "i": 0.2,
+   "o": 1.8
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "eu-south-2"
+   ],
+   "i": 0.4,
+   "o": 1.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "eu-west-1"
+   ],
+   "i": 0.2,
+   "o": 1.8
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "eu-west-2"
+   ],
+   "i": 0.4,
+   "o": 1.8
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "eu-west-3"
+   ],
+   "i": 0.4,
+   "o": 1.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "il-central-1"
+   ],
+   "i": 0.4,
+   "o": 1.8
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "me-central-1"
+   ],
+   "i": 0.2,
+   "o": 1.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "me-south-1"
+   ],
+   "i": 0.2,
+   "o": 1.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "sa-east-1"
+   ],
+   "i": 0.4,
+   "o": 1.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 0.2,
+   "o": 1.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 0.4,
+   "o": 1.8
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 0.2,
+   "o": 1.8
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Luna (クロスリージョン)",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 0.2,
+   "o": 1.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 8.8,
+   "o": 22
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 8.8,
+   "o": 33
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 4.4,
+   "o": 22
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 4.4,
+   "o": 22
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 8.8,
+   "o": 33
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 4.4,
+   "o": 22
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "af-south-1"
+   ],
+   "i": 8,
+   "o": 20
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "ap-east-2"
+   ],
+   "i": 8,
+   "o": 20
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "ap-northeast-1"
+   ],
+   "i": 4,
+   "o": 30
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "ap-northeast-2"
+   ],
+   "i": 8,
+   "o": 20
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "ap-northeast-3"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "ap-south-1"
+   ],
+   "i": 8,
+   "o": 30
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "ap-south-2"
+   ],
+   "i": 8,
+   "o": 20
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "ap-southeast-1"
+   ],
+   "i": 8,
+   "o": 20
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "ap-southeast-2"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "ap-southeast-3"
+   ],
+   "i": 8,
+   "o": 30
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "ap-southeast-4"
+   ],
+   "i": 8,
+   "o": 30
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "ap-southeast-5"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "ap-southeast-6"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "ap-southeast-7"
+   ],
+   "i": 8,
+   "o": 30
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 8,
+   "o": 30
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "eu-central-1"
+   ],
+   "i": 8,
+   "o": 30
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "eu-central-2"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "eu-north-1"
+   ],
+   "i": 8,
+   "o": 20
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "eu-south-1"
+   ],
+   "i": 4,
+   "o": 30
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "eu-south-2"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "eu-west-1"
+   ],
+   "i": 4,
+   "o": 30
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "eu-west-2"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "eu-west-3"
+   ],
+   "i": 8,
+   "o": 20
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "il-central-1"
+   ],
+   "i": 8,
+   "o": 30
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "me-central-1"
+   ],
+   "i": 4,
+   "o": 30
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "me-south-1"
+   ],
+   "i": 4,
+   "o": 30
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "sa-east-1"
+   ],
+   "i": 4,
+   "o": 30
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 4,
+   "o": 30
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 8,
+   "o": 30
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 8,
+   "o": 20
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Sol (クロスリージョン)",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 4,
+   "o": 20
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra",
+   "r": [
+    "ap-south-1"
+   ],
+   "i": 2.2,
+   "o": 19.8
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra",
+   "r": [
+    "ap-south-2"
+   ],
+   "i": 2.2,
+   "o": 13.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 4.4,
+   "o": 13.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 4.4,
+   "o": 13.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 2.2,
+   "o": 19.8
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 4.4,
+   "o": 19.8
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 4.4,
+   "o": 19.8
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 2.2,
+   "o": 13.2
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "af-south-1"
+   ],
+   "i": 2,
+   "o": 18
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "ap-east-2"
+   ],
+   "i": 4,
+   "o": 12
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "ap-northeast-1"
+   ],
+   "i": 4,
+   "o": 18
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "ap-northeast-2"
+   ],
+   "i": 4,
+   "o": 12
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "ap-northeast-3"
+   ],
+   "i": 2,
+   "o": 12
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "ap-south-1"
+   ],
+   "i": 4,
+   "o": 12
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "ap-south-2"
+   ],
+   "i": 2,
+   "o": 18
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "ap-southeast-1"
+   ],
+   "i": 4,
+   "o": 12
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "ap-southeast-2"
+   ],
+   "i": 4,
+   "o": 18
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "ap-southeast-3"
+   ],
+   "i": 2,
+   "o": 12
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "ap-southeast-4"
+   ],
+   "i": 2,
+   "o": 12
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "ap-southeast-5"
+   ],
+   "i": 4,
+   "o": 12
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "ap-southeast-6"
+   ],
+   "i": 2,
+   "o": 12
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "ap-southeast-7"
+   ],
+   "i": 4,
+   "o": 12
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 4,
+   "o": 18
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 4,
+   "o": 18
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "eu-central-1"
+   ],
+   "i": 2,
+   "o": 12
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "eu-central-2"
+   ],
+   "i": 2,
+   "o": 12
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "eu-north-1"
+   ],
+   "i": 4,
+   "o": 18
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "eu-south-1"
+   ],
+   "i": 2,
+   "o": 12
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "eu-south-2"
+   ],
+   "i": 4,
+   "o": 18
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "eu-west-1"
+   ],
+   "i": 2,
+   "o": 18
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "eu-west-2"
+   ],
+   "i": 4,
+   "o": 12
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "eu-west-3"
+   ],
+   "i": 2,
+   "o": 18
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "il-central-1"
+   ],
+   "i": 4,
+   "o": 18
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "me-central-1"
+   ],
+   "i": 4,
+   "o": 18
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "me-south-1"
+   ],
+   "i": 4,
+   "o": 12
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "sa-east-1"
+   ],
+   "i": 2,
+   "o": 12
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 2,
+   "o": 12
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 2,
+   "o": 12
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 2,
+   "o": 18
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-5.6 Terra (クロスリージョン)",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 4,
+   "o": 12
+  },
+  {
+   "p": "その他",
    "m": "OpenAI GPT-6 Astra",
    "r": [
     "ca-central-1"
@@ -25391,6 +27407,1347 @@
    ],
    "i": 10,
    "o": 75
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 0.22,
+   "o": 0.825
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 0.22,
+   "o": 0.55
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 0.22,
+   "o": 0.55
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 0.22,
+   "o": 0.825
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 0.11,
+   "o": 0.825
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 0.11,
+   "o": 0.55
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "af-south-1"
+   ],
+   "i": 0.1,
+   "o": 0.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "ap-east-2"
+   ],
+   "i": 0.1,
+   "o": 0.75
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "ap-northeast-1"
+   ],
+   "i": 0.1,
+   "o": 0.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "ap-northeast-2"
+   ],
+   "i": 0.1,
+   "o": 0.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "ap-northeast-3"
+   ],
+   "i": 0.1,
+   "o": 0.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "ap-south-1"
+   ],
+   "i": 0.1,
+   "o": 0.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "ap-south-2"
+   ],
+   "i": 0.2,
+   "o": 0.75
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "ap-southeast-1"
+   ],
+   "i": 0.2,
+   "o": 0.75
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "ap-southeast-2"
+   ],
+   "i": 0.2,
+   "o": 0.75
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "ap-southeast-3"
+   ],
+   "i": 0.2,
+   "o": 0.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "ap-southeast-4"
+   ],
+   "i": 0.2,
+   "o": 0.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "ap-southeast-5"
+   ],
+   "i": 0.1,
+   "o": 0.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "ap-southeast-6"
+   ],
+   "i": 0.1,
+   "o": 0.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "ap-southeast-7"
+   ],
+   "i": 0.1,
+   "o": 0.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 0.1,
+   "o": 0.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 0.1,
+   "o": 0.75
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "eu-central-1"
+   ],
+   "i": 0.1,
+   "o": 0.75
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "eu-central-2"
+   ],
+   "i": 0.2,
+   "o": 0.75
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "eu-north-1"
+   ],
+   "i": 0.2,
+   "o": 0.75
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "eu-south-1"
+   ],
+   "i": 0.2,
+   "o": 0.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "eu-south-2"
+   ],
+   "i": 0.2,
+   "o": 0.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "eu-west-1"
+   ],
+   "i": 0.1,
+   "o": 0.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "eu-west-2"
+   ],
+   "i": 0.2,
+   "o": 0.75
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "eu-west-3"
+   ],
+   "i": 0.1,
+   "o": 0.75
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "il-central-1"
+   ],
+   "i": 0.1,
+   "o": 0.75
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "mx-central-1"
+   ],
+   "i": 0.2,
+   "o": 0.75
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "sa-east-1"
+   ],
+   "i": 0.2,
+   "o": 0.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 0.2,
+   "o": 0.75
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 0.1,
+   "o": 0.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 0.2,
+   "o": 0.75
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Luna (クロスリージョン)",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 0.2,
+   "o": 0.75
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 2.2,
+   "o": 11
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 4.4,
+   "o": 11
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 2.2,
+   "o": 16.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 4.4,
+   "o": 16.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 4.4,
+   "o": 16.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 2.2,
+   "o": 11
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "af-south-1"
+   ],
+   "i": 2,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "ap-east-2"
+   ],
+   "i": 4,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "ap-northeast-1"
+   ],
+   "i": 2,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "ap-northeast-2"
+   ],
+   "i": 4,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "ap-northeast-3"
+   ],
+   "i": 4,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "ap-south-1"
+   ],
+   "i": 2,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "ap-south-2"
+   ],
+   "i": 2,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "ap-southeast-1"
+   ],
+   "i": 2,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "ap-southeast-2"
+   ],
+   "i": 2,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "ap-southeast-3"
+   ],
+   "i": 4,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "ap-southeast-4"
+   ],
+   "i": 2,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "ap-southeast-5"
+   ],
+   "i": 4,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "ap-southeast-6"
+   ],
+   "i": 2,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "ap-southeast-7"
+   ],
+   "i": 2,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 2,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 4,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "eu-central-1"
+   ],
+   "i": 4,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "eu-central-2"
+   ],
+   "i": 2,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "eu-north-1"
+   ],
+   "i": 4,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "eu-south-1"
+   ],
+   "i": 2,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "eu-south-2"
+   ],
+   "i": 4,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "eu-west-1"
+   ],
+   "i": 2,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "eu-west-2"
+   ],
+   "i": 4,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "eu-west-3"
+   ],
+   "i": 2,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "il-central-1"
+   ],
+   "i": 2,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "mx-central-1"
+   ],
+   "i": 2,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "sa-east-1"
+   ],
+   "i": 2,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 2,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 4,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 4,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6 Sol (クロスリージョン)",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 2,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 4.4,
+   "o": 16.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 4.4,
+   "o": 16.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 2.2,
+   "o": 11
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 4.4,
+   "o": 11
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 2.2,
+   "o": 11
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 2.2,
+   "o": 11
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "af-south-1"
+   ],
+   "i": 4,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "ap-east-2"
+   ],
+   "i": 2,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "ap-northeast-1"
+   ],
+   "i": 2,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "ap-northeast-2"
+   ],
+   "i": 2,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "ap-northeast-3"
+   ],
+   "i": 4,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "ap-south-1"
+   ],
+   "i": 2,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "ap-south-2"
+   ],
+   "i": 4,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "ap-southeast-1"
+   ],
+   "i": 2,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "ap-southeast-2"
+   ],
+   "i": 2,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "ap-southeast-3"
+   ],
+   "i": 4,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "ap-southeast-4"
+   ],
+   "i": 4,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "ap-southeast-5"
+   ],
+   "i": 2,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "ap-southeast-6"
+   ],
+   "i": 4,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "ap-southeast-7"
+   ],
+   "i": 4,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 4,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 4,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "eu-central-1"
+   ],
+   "i": 4,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "eu-central-2"
+   ],
+   "i": 4,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "eu-north-1"
+   ],
+   "i": 4,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "eu-south-1"
+   ],
+   "i": 4,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "eu-south-2"
+   ],
+   "i": 4,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "eu-west-1"
+   ],
+   "i": 4,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "eu-west-2"
+   ],
+   "i": 2,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "eu-west-3"
+   ],
+   "i": 4,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "il-central-1"
+   ],
+   "i": 4,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "mx-central-1"
+   ],
+   "i": 2,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "sa-east-1"
+   ],
+   "i": 4,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 2,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 4,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 4,
+   "o": 10
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Sol (クロスリージョン)",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 2,
+   "o": 15
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 2.2,
+   "o": 5.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 2.2,
+   "o": 5.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 2.2,
+   "o": 8.25
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 1.1,
+   "o": 8.25
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 2.2,
+   "o": 5.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 1.1,
+   "o": 8.25
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "af-south-1"
+   ],
+   "i": 2,
+   "o": 5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "ap-east-2"
+   ],
+   "i": 1,
+   "o": 7.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "ap-northeast-1"
+   ],
+   "i": 2,
+   "o": 7.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "ap-northeast-2"
+   ],
+   "i": 2,
+   "o": 5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "ap-northeast-3"
+   ],
+   "i": 2,
+   "o": 5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "ap-south-1"
+   ],
+   "i": 1,
+   "o": 7.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "ap-south-2"
+   ],
+   "i": 1,
+   "o": 5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "ap-southeast-1"
+   ],
+   "i": 1,
+   "o": 5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "ap-southeast-2"
+   ],
+   "i": 2,
+   "o": 7.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "ap-southeast-3"
+   ],
+   "i": 1,
+   "o": 7.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "ap-southeast-4"
+   ],
+   "i": 1,
+   "o": 5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "ap-southeast-5"
+   ],
+   "i": 1,
+   "o": 7.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "ap-southeast-6"
+   ],
+   "i": 2,
+   "o": 5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "ap-southeast-7"
+   ],
+   "i": 2,
+   "o": 7.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "ca-central-1"
+   ],
+   "i": 1,
+   "o": 5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "ca-west-1"
+   ],
+   "i": 1,
+   "o": 5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "eu-central-1"
+   ],
+   "i": 1,
+   "o": 5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "eu-central-2"
+   ],
+   "i": 1,
+   "o": 5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "eu-north-1"
+   ],
+   "i": 2,
+   "o": 7.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "eu-south-1"
+   ],
+   "i": 1,
+   "o": 5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "eu-south-2"
+   ],
+   "i": 1,
+   "o": 7.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "eu-west-1"
+   ],
+   "i": 1,
+   "o": 5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "eu-west-2"
+   ],
+   "i": 1,
+   "o": 5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "eu-west-3"
+   ],
+   "i": 2,
+   "o": 5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "il-central-1"
+   ],
+   "i": 1,
+   "o": 7.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "me-south-1"
+   ],
+   "i": 1,
+   "o": 5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "mx-central-1"
+   ],
+   "i": 2,
+   "o": 7.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "sa-east-1"
+   ],
+   "i": 2,
+   "o": 7.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "us-east-1"
+   ],
+   "i": 2,
+   "o": 5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "us-east-2"
+   ],
+   "i": 2,
+   "o": 7.5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "us-west-1"
+   ],
+   "i": 1,
+   "o": 5
+  },
+  {
+   "p": "その他",
+   "m": "OpenAI GPT-6.1 Terra (クロスリージョン)",
+   "r": [
+    "us-west-2"
+   ],
+   "i": 2,
+   "o": 5
   },
   {
    "p": "その他",
